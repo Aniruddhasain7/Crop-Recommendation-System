@@ -50,8 +50,8 @@ Users can input soil and weather parameters to receive:
 
 ### Prediction Output
 
-![Prediction Output](assets/ss1.pn)
-![Prediction Output](assets/ss2.pn)
+![Prediction Output](assets/ss1.png)
+![Prediction Output](assets/ss2.png)
 
 
 
