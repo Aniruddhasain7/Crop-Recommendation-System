@@ -6,9 +6,9 @@ model = joblib.load("crop_recommendation_model.pkl")
 scaler = joblib.load("scaler.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 
-st.set_page_config(page_title="AI Crop Recommendation System", layout="centered")
+st.set_page_config(page_title="Crop Recommendation System", layout="centered")
 
-st.title("🌾 AI Crop Recommendation System")
+st.title("🌾 Crop Recommendation System")
 st.write("Enter soil and environmental values to get the best crop suggestion")
 
 N = st.number_input("Nitrogen (N)", 0.0, 300.0, step=1.0)

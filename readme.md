@@ -1,4 +1,4 @@
-# 🌾 AI Crop Recommendation System
+# 🌾 Crop Recommendation System
 
 An intelligent machine learning–based system that recommends the most suitable crop based on soil nutrients and environmental conditions.
 
