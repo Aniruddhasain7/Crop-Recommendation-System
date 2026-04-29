@@ -4,24 +4,6 @@ An intelligent Machine Learning-based system designed to assist farmers and agri
 
 ---
 
-## 📁 Project Structure
-
-```text
-├── assets/                     # UI screenshots and visual assets
-│   ├── ss1.png
-│   └── ss2.png
-├── app.py                      # Main Streamlit application script
-├── Crop_Recommendation.ipynb    # Research and Model training notebook
-├── Crop_recommendation.csv      # Raw dataset for crop prediction
-├── crop_recommendation_model.pkl # Saved Random Forest Classifier model
-├── label_encoder.pkl            # Serialized label encoder for classes
-├── scaler.pkl                  # Serialized feature scaler
-├── requirements.txt            # Required Python libraries
-└── README.md                   # Project documentation
-```
-
----
-
 ## 🚀 Features
 
 - **Precision Recommendations**: Predicts the best crop based on 7 critical environmental and soil parameters.
@@ -91,6 +73,23 @@ streamlit run app.py
 ```
 
 Once the server starts, open your browser and navigate to the local URL provided (usually `http://localhost:8501`).
+
+---
+
+
+## 📁 Project Structure
+
+```text
+├── assets/                     # UI screenshots 
+├── app.py                      # Main Streamlit application script
+├── Crop_Recommendation.ipynb    # Research and Model training notebook
+├── Crop_recommendation.csv      # Raw dataset for crop prediction
+├── crop_recommendation_model.pkl # Saved Random Forest Classifier model
+├── label_encoder.pkl            # Serialized label encoder for classes
+├── scaler.pkl                  # Serialized feature scaler
+├── requirements.txt            # Required Python libraries
+└── README.md                   # Project documentation
+```
 
 ---
 
